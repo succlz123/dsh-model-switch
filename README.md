@@ -12,6 +12,20 @@ DSH (DeepSeek Harness) 全局插件：用任意按键（含 spare 键、蓝牙�
 - 模型列表来自 DSH 官方 `modelDirectories` 服务（与 UI 模型选择器同数据源，实时同步），并兼容 `remote.session` 旧接口
 - 内置轻量诊断通道（宿主落盘 `$DSH_HOME/.dms-diag.ndjson`），排查"按键没反应"之类问题不需要开 DevTools
 
+## 截图
+
+打开面板，点击「添加按键映射」：
+
+![面板](screenshots/panel.jpg)
+
+面板内实时监听按键：
+
+![监听按键](screenshots/capture.jpg)
+
+映射完成后，按键即切：
+
+![映射列表](screenshots/mapped.jpg)
+
 ## 安装
 
 ```bash
