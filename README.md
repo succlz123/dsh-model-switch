@@ -1,6 +1,6 @@
-# dsh-remote-model-switch
+# dsh-model-switch
 
-DSH (DeepSeek Harness) 全局插件：用一个蓝牙遥控器（或任意键盘的 spare 键）**一键切换模型与思考强度**。
+DSH (DeepSeek Harness) 全局插件：用任意按键（含 spare 键、蓝牙小键盘、遥控器 HID 键盘等）**一键切换模型与思考强度**。
 
 在输入框下方那一行（模型显示同一行）的左侧渲染一个机械键帽按钮，点开面板可以把任意组合键（建议 F13–F24 或 Ctrl/Alt 组合）映射到「某个 provider 的某个模型 + 思考强度档位」。之后在页面上直接按下遥控器按键即可切换，全程无浮动弹窗打扰。
 

@@ -1,6 +1,6 @@
-# dsh-remote-model-switch bundle patch：把插件行插入 web profile 的宿主配置。
-# 真正的功能全在客户端半（exports "./client"）；宿主半是无操作占位行，
-# 让本 bundle 以标准方式进入 roster 并随 profile 加载客户端模块。
+# dsh-model-switch bundle patch：把插件行插入 web profile 的宿主配置。
+# 真正的功能全在客户端半（exports "./client"）；宿主半负责启动标记与诊断
+# 路由，让本 bundle 以标准方式进入 roster 并随 profile 加载客户端模块。
 - insert:
-    - id: remote-model-switch
-      name: dsh-remote-model-switch
+    - id: model-switch
+      name: dsh-model-switch

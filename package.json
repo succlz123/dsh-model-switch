@@ -1,7 +1,7 @@
 {
-  "name": "dsh-remote-model-switch",
+  "name": "dsh-model-switch",
   "version": "1.0.1",
-  "description": "遥控器切换模型（全局插件版）：小米蓝牙遥控器（HID 键盘）一键切换模型与思考强度，输入框左侧 🎮 按钮。",
+  "description": "按键切换模型（DSH 全局插件）：把任意按键/组合键映射到模型与思考强度，一键切换。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -26,7 +26,8 @@
     "dsh",
     "dsh-plugin",
     "model-switch",
-    "remote"
+    "keyboard",
+    "hotkey"
   ],
   "license": "MIT"
 }
